@@ -26,3 +26,6 @@ POST	BASE_URL/webhooks/unsubscribe/{id}
 Request parameter (*required): id generated when subscribing.
 
 The request will return the unsubscribed listener
+
+## Listener Data
+Listener data is stored in Redis
